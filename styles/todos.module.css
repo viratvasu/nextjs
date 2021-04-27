@@ -1,0 +1,16 @@
+.todoscontsiner{
+padding:40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.todobox{
+    margin-top:20px;
+    background-color: #fff;
+    /* display: inline-block; */
+    padding:10px 50px;
+    border-radius: 14px;
+    box-shadow: 1px 1px 5px grey;
+    cursor: pointer;
+}

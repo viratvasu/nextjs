@@ -1,0 +1,37 @@
+.header{
+    height:calc(100vh - 60px );
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .heading{
+        color:#000000;
+    }
+    .subheading{
+        margin-top:1rem;
+        color:grey;
+    }
+}
+.svg{
+    position:absolute;
+    bottom:15px;
+    height:45px;
+}
+.downarrow  {
+    animation:cloud-anim 1s alternate-reverse infinite linear;
+}
+.section{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes cloud-anim{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(15px);
+    }
+}

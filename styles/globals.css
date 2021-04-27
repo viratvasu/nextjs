@@ -1,0 +1,32 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ddd;
+  color:#000000;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.container{
+  padding: 0 50px;
+}
+.customsection{
+  height:100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
